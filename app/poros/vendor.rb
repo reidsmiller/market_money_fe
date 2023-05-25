@@ -6,7 +6,11 @@ class Vendor
     @name = data[:attributes][:name]
     @contact_name = data[:attributes][:contact_name]
     @contact_phone = data[:attributes][:contact_phone]
-    @credit_accepted = data[:attributes][:credit_accepted]
+    @credit_accepted = credit_accepted?(data[:attributes][:credit_accepted])
     @description = data[:attributes][:description]
+  end
+
+  def credit_accepted?(data)
+    data == true ? 'Yes' : 'No'
   end
 end
