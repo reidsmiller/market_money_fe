@@ -123,7 +123,7 @@ RSpec.describe MarketMoneyService do
       expect(vendor_data[:attributes][:contact_phone]).to be_a(String)
 
       expect(vendor_data[:attributes]).to have_key(:credit_accepted)
-      expect(vendor_data[:attributes][:credit_accepted]).to be_a(Boolean)
+      expect(vendor_data[:attributes][:credit_accepted]).to be(true).or be(false)
     end
   end
 end
