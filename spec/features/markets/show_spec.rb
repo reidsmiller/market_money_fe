@@ -22,7 +22,7 @@ RSpec.describe 'Market show page', :vcr do
     expect(page).to have_link(@vendors.last.name)
   end
 
-  xit 'I can click on a vendors name to go to their show page'do
+  it 'I can click on a vendors name to go to their show page'do
     click_link(@vendors.first.name)
     expect(current_path).to eq(vendor_path(@vendors.first.id))
   end

@@ -1,12 +1,12 @@
-example_id                                          | status  | run_time        |
---------------------------------------------------- | ------- | --------------- |
-./spec/facades/market_search_facade_spec.rb[1:1]    | passed  | 0.12968 seconds |
-./spec/facades/markets_facade_spec.rb[1:1]          | passed  | 0.05805 seconds |
-./spec/features/markets/index_spec.rb[1:1:1]        | passed  | 0.31769 seconds |
-./spec/features/markets/index_spec.rb[1:1:2]        | passed  | 0.1872 seconds  |
-./spec/features/markets/show_spec.rb[1:1]           | passed  | 0.13347 seconds |
-./spec/features/markets/show_spec.rb[1:2]           | passed  | 0.13598 seconds |
-./spec/features/markets/show_spec.rb[1:3]           | pending | 0.00001 seconds |
-./spec/services/market_money_service_spec.rb[1:1:1] | passed  | 0.03069 seconds |
-./spec/services/market_money_service_spec.rb[1:2:1] | passed  | 0.05112 seconds |
-./spec/services/market_money_service_spec.rb[1:3:1] | passed  | 0.05473 seconds |
+example_id                                          | status | run_time        |
+--------------------------------------------------- | ------ | --------------- |
+./spec/facades/market_search_facade_spec.rb[1:1]    | passed | 0.13487 seconds |
+./spec/facades/markets_facade_spec.rb[1:1]          | passed | 0.05681 seconds |
+./spec/features/markets/index_spec.rb[1:1:1]        | passed | 0.3825 seconds  |
+./spec/features/markets/index_spec.rb[1:1:2]        | passed | 0.17383 seconds |
+./spec/features/markets/show_spec.rb[1:1]           | passed | 0.11633 seconds |
+./spec/features/markets/show_spec.rb[1:2]           | passed | 0.15 seconds    |
+./spec/features/markets/show_spec.rb[1:3]           | passed | 0.10509 seconds |
+./spec/services/market_money_service_spec.rb[1:1:1] | passed | 0.03592 seconds |
+./spec/services/market_money_service_spec.rb[1:2:1] | passed | 0.05545 seconds |
+./spec/services/market_money_service_spec.rb[1:3:1] | passed | 0.06537 seconds |
