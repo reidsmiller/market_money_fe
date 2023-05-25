@@ -1,0 +1,23 @@
+<h1>Markets</h1>
+
+<table class='markets_table'>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>City</th>
+      <th>State</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @facade.markets.each do |market| %>
+      <tr id='market_<%= market.id %>'>
+        <td><%= market.name %></td>
+        <td><%= market.city %></td>
+        <td><%= market.state %></td>
+        <td><%= button_to 'More Info', market_path(market.id), method: :get%>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

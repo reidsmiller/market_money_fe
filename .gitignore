@@ -31,4 +31,6 @@
 /config/master.key
 
 # Ignore application configuration
+/coverage
 /config/application.yml
+/spec/fixtures/
